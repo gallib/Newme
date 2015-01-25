@@ -1,0 +1,10 @@
+/* TEAM */
+Developer: Alain Pellaux
+Site: http://www.alainpellaux.me
+Twitter: gallib_net
+Location: Geneva, Switzerland
+
+/* SITE */
+  Standards: HTML5, CSS3
+  Components: jQuery, Foundation 5
+  Software: Sublime Text, Git

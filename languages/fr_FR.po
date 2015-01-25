@@ -1,0 +1,172 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Newme 1.0\n"
+"POT-Creation-Date: 2015-01-23 12:40+0100\n"
+"PO-Revision-Date: 2015-01-23 12:42+0100\n"
+"Last-Translator: Alain Pellaux <alp@swisslens.ch>\n"
+"Language-Team: Alain Pellaux <alain@gallib.net>\n"
+"Language: fr_FR\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 1.6.5\n"
+"X-Poedit-Basepath: .\n"
+"Plural-Forms: nplurals=2; plural=(n > 1);\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: _e;__\n"
+"X-Poedit-SearchPath-0: C:\\wamp\\www\\alainpellaux\\wp-content\\themes"
+"\\newme\n"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/404.php:16
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/content-none.php:16
+msgid "Content not found"
+msgstr "Aucun contenu trouvé"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/404.php:21
+msgid "Sorry but there is nothing here..."
+msgstr "Désolé mais il n'y a rien ici..."
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/about-me.php:31
+msgid "A post thumbnail picture could be a good idea, no ?"
+msgstr "Une image à la une pourrait être une bonne idée, non ?"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:37
+msgid "Your name"
+msgstr "Votre nom"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:38
+msgid "Name"
+msgstr "Nom"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:41
+msgid "Your email"
+msgstr "Votre nom"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:42
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:51
+msgid "Email"
+msgstr "Email"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:47
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:48
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:52
+msgid "Subject"
+msgstr "Sujet"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:53
+msgid "Your message"
+msgstr "Votre message"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:54
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:53
+msgid "Message"
+msgstr "Message"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/contact.php:59
+msgid "Send"
+msgstr "Envoyer"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/content-none.php:23
+msgid ""
+"Sorry but nothing matched with your search. Maybe try with other keywords ?"
+msgstr ""
+"Désolé mais rien ne correspond à votre recherche. Voulez-vous essayer avec "
+"d'autres mots clés ?"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/content-none.php:25
+msgid "Sorry but we can't find what you were looking for."
+msgstr "Désolé mais nous n'avons pas pu trouvé ce que vous cherchiez"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:48
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-menu.php:21
+msgid "The Main Menu"
+msgstr "Menu principal"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:102
+msgid "Back"
+msgstr "Retour"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:103
+msgid "This field is mandatory."
+msgstr "Ce champ est obligatoire"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:142
+msgid "Blue"
+msgstr "Bleu"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:143
+msgid "Cyan"
+msgstr "Cyan"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:144
+msgid "Violet"
+msgstr "Violet"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:145
+msgid "Red"
+msgstr "Rouge"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions.php:146
+msgid "Orange"
+msgstr "Orange"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:40
+msgid "Email is not valid"
+msgstr "Email non valid"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:46
+#, php-format
+msgid "%s contact form"
+msgstr "Formulaire de contact de %s"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:50
+msgid "From"
+msgstr "De"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:58
+#, php-format
+msgid "Contact request: %s"
+msgstr "Demande de contact de %s"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-contact.php:59
+msgid "Your message has been sent, thank you. We'll be in touch soon!"
+msgstr "Votre message a été envoyé, merci. Nous serons en contact bientôt!"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-options.php:23
+msgid "Background color"
+msgstr "Couleur de fond"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/functions/theme-options.php:55
+msgid "Color"
+msgstr "Couleur"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/header.php:36
+msgid "Menu"
+msgstr "Menu"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/index.php:33
+#, php-format
+msgid "Continue reading %s"
+msgstr "Continuer à lire %s"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/search.php:18
+#, php-format
+msgid "Search Results for: %s"
+msgstr "Résultats de recherche pour: %s"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/search.php:28
+msgid "Previous page"
+msgstr "Page précédente"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/search.php:29
+msgid "Next page"
+msgstr "Page suivante"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/searchform.php:14
+msgid "Try a search"
+msgstr "Essayez de faire une recherche"
+
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/searchform.php:15
+#: C:\wamp\www\alainpellaux\wp-content\themes\newme/searchform.php:16
+msgid "Search"
+msgstr "Rechercher"

@@ -1,0 +1,9 @@
+.search-article {
+    @include article-border;
+}
+
+.pagination {
+    .screen-reader-text {
+        display: none;
+    }
+}

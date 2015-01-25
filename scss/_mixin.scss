@@ -1,0 +1,5 @@
+@mixin article-border {
+	border-left: solid 5px $dark-blue;
+    padding-left: 20px;
+    margin-bottom: 20px;
+}

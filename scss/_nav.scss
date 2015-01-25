@@ -1,0 +1,21 @@
+.top-bar {
+    a {
+        text-decoration:none;
+    }
+
+    .name {
+        margin-left: 1rem;
+        line-height: 2.8125rem;
+    }
+}
+
+@media only screen and (min-width: 40.063em) {
+    .top-bar {
+        .active a, .right a:hover {
+            display: block;
+            height: 45px;
+            text-decoration: none;
+            border-bottom: solid 5px $vivid-orange;
+        }
+    }
+}

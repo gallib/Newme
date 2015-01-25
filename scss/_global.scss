@@ -1,0 +1,66 @@
+img {
+    max-width: 100%;
+    height: auto;
+    padding: 0;
+}
+
+textarea {
+    height: 10rem;
+}
+
+ul, ol {
+    margin-left: 2rem;
+}
+
+blockquote {
+    border-left: solid 3px $dark-blue;
+    padding: 0.5rem 1rem;
+    font-style: italic;
+    margin-left: 2rem;
+
+    p:last-child {
+        margin-bottom: 0;
+    }
+}
+
+hr {
+    border-color: $dark-blue;
+}
+
+.content-wrapper {
+    margin-top: 10px;
+}
+
+.alignleft {
+    display: inline;
+    float: left;
+}
+
+.alignright {
+    display: inline;
+    float: right;
+}
+
+.aligncenter {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+@media only screen and (min-width: 40.063em) {
+    .content-wrapper {
+      display: table;
+      height: 100%;
+
+      > .columns,
+      .content-body {
+          display: table-cell;
+          vertical-align: middle;
+          height: 100%;
+      }
+
+      > .columns, > [class*="column"] + [class*="column"]:last-child {
+          float: none;
+      }
+  }
+}

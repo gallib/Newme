@@ -1,0 +1,249 @@
+/*
+The main scss file
+ */
+/* =========================================================
+   Definitions
+   ====================================================== */
+/* =========================================================
+   Compass
+   ====================================================== */
+/* =========================================================
+   Mixin
+   ====================================================== */
+/* =========================================================
+   Global
+   ======================================================  */
+/* line 1, ../scss/_global.scss */
+img {
+  max-width: 100%;
+  height: auto;
+  padding: 0;
+}
+
+/* line 7, ../scss/_global.scss */
+textarea {
+  height: 10rem;
+}
+
+/* line 11, ../scss/_global.scss */
+ul, ol {
+  margin-left: 2rem;
+}
+
+/* line 15, ../scss/_global.scss */
+blockquote {
+  border-left: solid 3px #2c3e50;
+  padding: 0.5rem 1rem;
+  font-style: italic;
+  margin-left: 2rem;
+}
+/* line 21, ../scss/_global.scss */
+blockquote p:last-child {
+  margin-bottom: 0;
+}
+
+/* line 26, ../scss/_global.scss */
+hr {
+  border-color: #2c3e50;
+}
+
+/* line 30, ../scss/_global.scss */
+.content-wrapper {
+  margin-top: 10px;
+}
+
+/* line 34, ../scss/_global.scss */
+.alignleft {
+  display: inline;
+  float: left;
+}
+
+/* line 39, ../scss/_global.scss */
+.alignright {
+  display: inline;
+  float: right;
+}
+
+/* line 44, ../scss/_global.scss */
+.aligncenter {
+  display: block;
+  margin-right: auto;
+  margin-left: auto;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 51, ../scss/_global.scss */
+  .content-wrapper {
+    display: table;
+    height: 100%;
+  }
+  /* line 55, ../scss/_global.scss */
+  .content-wrapper > .columns,
+  .content-wrapper .content-body {
+    display: table-cell;
+    vertical-align: middle;
+    height: 100%;
+  }
+  /* line 62, ../scss/_global.scss */
+  .content-wrapper > .columns, .content-wrapper > [class*="column"] + [class*="column"]:last-child {
+    float: none;
+  }
+}
+/* =========================================================
+   Navigation
+   ======================================================  */
+/* line 2, ../scss/_nav.scss */
+.top-bar a {
+  text-decoration: none;
+}
+/* line 6, ../scss/_nav.scss */
+.top-bar .name {
+  margin-left: 1rem;
+  line-height: 2.8125rem;
+}
+
+@media only screen and (min-width: 40.063em) {
+  /* line 14, ../scss/_nav.scss */
+  .top-bar .active a, .top-bar .right a:hover {
+    display: block;
+    height: 45px;
+    text-decoration: none;
+    border-bottom: solid 5px #f89406;
+  }
+}
+/* =========================================================
+   Article
+   ======================================================  */
+/* line 1, ../scss/_article.scss */
+.article {
+  border-left: solid 5px #2c3e50;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 5, ../scss/_article.scss */
+.article-entry-meta {
+  font-size: 0.8rem;
+}
+/* line 8, ../scss/_article.scss */
+.article-entry-meta span {
+  margin-right: 0.5rem;
+}
+/* line 12, ../scss/_article.scss */
+.article-entry-meta i {
+  margin-right: 0.2rem;
+}
+/* line 16, ../scss/_article.scss */
+.article-entry-meta a {
+  text-decoration: none;
+}
+
+/* line 21, ../scss/_article.scss */
+.more-link {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* =========================================================
+   Comment
+   ======================================================  */
+/* line 1, ../scss/_comment.scss */
+.comment-list,
+.comment-list ul {
+  list-style: none;
+}
+/* line 5, ../scss/_comment.scss */
+.comment-list li,
+.comment-list ul li {
+  border-left: solid 5px #2c3e50;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 10, ../scss/_comment.scss */
+.comment-author {
+  border: none;
+  margin: 0;
+}
+/* line 14, ../scss/_comment.scss */
+.comment-author .fn {
+  font-size: 1rem;
+}
+/* line 18, ../scss/_comment.scss */
+.comment-author .avatar {
+  -moz-border-radius: 30px;
+  -webkit-border-radius: 30px;
+  border-radius: 30px;
+}
+
+/* line 23, ../scss/_comment.scss */
+.comment-meta,
+.comment-edit-link,
+.comment-reply-link {
+  font-size: 0.8rem;
+}
+
+/* line 30, ../scss/_comment.scss */
+.comment-navigation .nav-previous {
+  margin-right: 1rem;
+}
+
+/* line 35, ../scss/_comment.scss */
+.comment-respond {
+  border-left: solid 5px #2c3e50;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 40, ../scss/_comment.scss */
+#commentform .form-allowed-tags {
+  font-size: 0.8rem;
+}
+
+/* =========================================================
+   About me
+   ======================================================  */
+/* line 1, ../scss/_about-me.scss */
+.about-me-picture img {
+  -moz-border-radius: 400px;
+  -webkit-border-radius: 400px;
+  border-radius: 400px;
+  /*display:block;*/
+}
+
+@media only screen and (max-width: 40em) {
+  /* line 7, ../scss/_about-me.scss */
+  .about-me-picture {
+    margin-bottom: 1rem;
+  }
+}
+/* =========================================================
+   Contact
+   ======================================================  */
+@media only screen and (min-width: 40.063em) {
+  /* line 2, ../scss/_contact.scss */
+  .contact-form-wrapper {
+    max-width: 80%;
+    margin: 0 auto;
+  }
+}
+@media only screen and (min-width: 64.063em) {
+  /* line 9, ../scss/_contact.scss */
+  .contact-form-wrapper {
+    max-width: 60%;
+  }
+}
+/* =========================================================
+   Search
+   ======================================================  */
+/* line 1, ../scss/_search.scss */
+.search-article {
+  border-left: solid 5px #2c3e50;
+  padding-left: 20px;
+  margin-bottom: 20px;
+}
+
+/* line 6, ../scss/_search.scss */
+.pagination .screen-reader-text {
+  display: none;
+}

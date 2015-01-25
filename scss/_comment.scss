@@ -1,0 +1,43 @@
+.comment-list,
+.comment-list ul {
+	list-style: none;
+
+	li {
+		@include article-border;
+	}
+}
+
+.comment-author {
+	border: none;
+	margin: 0;
+
+	.fn {
+		font-size: 1rem;
+	}
+
+	.avatar {
+		@include border-radius(30px);
+	}
+}
+
+.comment-meta,
+.comment-edit-link,
+.comment-reply-link {
+	font-size: 0.8rem;
+}
+
+.comment-navigation {
+	.nav-previous {
+		margin-right: 1rem;
+	}
+}
+
+.comment-respond {
+	@include article-border;
+}
+
+#commentform {
+	.form-allowed-tags {
+		font-size: 0.8rem;
+	}
+}

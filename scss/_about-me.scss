@@ -1,0 +1,10 @@
+.about-me-picture img{
+    @include border-radius(400px);
+    /*display:block;*/
+}
+
+@media only screen and (max-width: 40em) {
+    .about-me-picture {
+        margin-bottom: 1rem;
+    }
+}
