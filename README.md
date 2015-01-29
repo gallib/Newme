@@ -2,6 +2,6 @@
 
 The WordPress theme developed for my personal website: [alainpellaux.me](http://www.alainpellaux.me)
 
-Newme needs WordPress 4.1 to works.
+Newme requires WordPress 4.1 to work.
 
-Current version: 0.1
+Current version: 1.0

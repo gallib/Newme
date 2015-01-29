@@ -220,15 +220,22 @@ hr {
 /* =========================================================
    Contact
    ======================================================  */
+/* line 1, ../scss/_contact.scss */
+.contact-loader {
+  width: 60px;
+  height: 60px;
+  display: none;
+}
+
 @media only screen and (min-width: 40.063em) {
-  /* line 2, ../scss/_contact.scss */
+  /* line 8, ../scss/_contact.scss */
   .contact-form-wrapper {
     max-width: 80%;
     margin: 0 auto;
   }
 }
 @media only screen and (min-width: 64.063em) {
-  /* line 9, ../scss/_contact.scss */
+  /* line 15, ../scss/_contact.scss */
   .contact-form-wrapper {
     max-width: 60%;
   }

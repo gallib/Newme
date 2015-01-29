@@ -3,15 +3,19 @@
 
     function sendContact()
     {
-        var isPending;
+        var isPending
+            contactLoader = $('.contact-loader');
 
         if (!$('#contact-form').length) {
             return;
         }
 
-        $('#contact-form').submit(function() {
+        $('#contact-form').on('submit', function(e) {
+            e.preventDefault();
+
             $('.form-error').remove();
             $('.error').removeClass('error');
+            contactLoader.show();
 
             if (isPending) {
                 isPending.abort();
@@ -26,6 +30,8 @@
                     $('.contact-form-wrapper').html('<p>' + response.data.message + '</p>');
                 } else {
                     if (response.data) {
+                        contactLoader.hide();
+
                         if (response.data.required_fields) {
                             $.each(response.data.required_fields, function (i, e) {
                                 $('#' + e).addClass('error').after('<small class="form-error error">' + newme.contact_mandatory_field + '</small>');
@@ -41,8 +47,6 @@
                 }
 
             });
-
-            return false;
         });
     }
 

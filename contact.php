@@ -57,6 +57,7 @@ get_header(); ?>
                     <div class="row">
                         <div class="small-12 columns">
                             <input type="submit" id="submit" name="submit" class="button" value="<?php _e('Send', 'newme'); ?>" />
+                            <img class="contact-loader" src="<?php echo newme_get_image_directory_uri(); ?>/loading.gif" />
                         </div>
                     </div>
                 </form>
