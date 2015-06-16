@@ -27,10 +27,6 @@ hr {
     border-color: $dark-blue;
 }
 
-.content-wrapper {
-    margin-top: 10px;
-}
-
 .alignleft {
     display: inline;
     float: left;
@@ -49,18 +45,18 @@ hr {
 
 @media only screen and (min-width: 40.063em) {
     .content-wrapper {
-      display: table;
-      height: 100%;
+        display: table;
+        height: 100%;
 
-      > .columns,
-      .content-body {
-          display: table-cell;
-          vertical-align: middle;
-          height: 100%;
-      }
+        > .columns,
+        .content-body {
+            display: table-cell;
+            vertical-align: middle;
+            height: 100%;
+        }
 
-      > .columns, > [class*="column"] + [class*="column"]:last-child {
-          float: none;
-      }
-  }
+        > .columns, > [class*="column"] + [class*="column"]:last-child {
+            float: none;
+        }
+    }
 }

@@ -23,20 +23,25 @@ get_header(); ?>
                 <?php the_title('<h1 class="small-only-text-center">', '</h1>'); ?>
                 </div>
             </div>
-            <div class="row" data-equalizer>
-                <div class="medium-4 columns about-me-picture" data-equalizer-watch> <?php
+
+            <div class="about-me row">
+                <div class="about-me-picture small-12 medium-4 columns">
+                    <?php
+
                     if (has_post_thumbnail()) :
                         the_post_thumbnail('newme-about');
                     else : ?>
                         <img src="http://lorempixel.com/800/800/cats" alt="<?php _e('A post thumbnail picture could be a good idea, no ?', 'newme'); ?>" /> <?php
-                    endif; ?>
+                    endif;
+
+                    ?>
                 </div>
-                <div class="medium-8 columns content-wrapper" data-equalizer-watch>
-                    <div class="content-body" >
-                        <?php the_content(); ?>
-                    </div>
+                <div class="about-me-content small-12 medium-8 columns">
+                    <div><?php the_content(); ?></div>
                 </div>
-            </div> <?php
+            </div>
+
+            <?php
 
         endwhile;
     else :

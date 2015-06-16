@@ -1,10 +1,36 @@
-.about-me-picture img{
-    @include border-radius(400px);
-    /*display:block;*/
+.about-me-picture {
+	img {
+    	@include border-radius(400px);
+    	width: 100%;
+    }
 }
 
+.about-me-content {
+	text-align: justify;
+}
+
+// Todo: mobile first: ne pas mettre ça dans un @media mais l'enlever des le medium
 @media only screen and (max-width: 40em) {
     .about-me-picture {
         margin-bottom: 1rem;
     }
+}
+
+@media only screen and (min-width: 40.063em) {
+	.about-me {
+		display: flex;
+		align-items: stretch;
+	}
+
+	.about-me-picture,
+	.about-me-content {
+		display: flex;
+		align-items: center;
+	}
+
+	.about-me-content {
+		p:last-child {
+			margin-bottom: 0;
+		}
+	}
 }

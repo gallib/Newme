@@ -2,7 +2,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: Newme 1.0\n"
 "POT-Creation-Date: 2015-01-29 21:28+0100\n"
-"PO-Revision-Date: 2015-01-29 21:30+0100\n"
+"PO-Revision-Date: 2015-06-16 22:43+0100\n"
 "Last-Translator: Alain Pellaux <alp@swisslens.ch>\n"
 "Language-Team: Alain Pellaux <alain@gallib.net>\n"
 "Language: fr_FR\n"
@@ -60,7 +60,7 @@ msgstr "Nom"
 
 #: /Volumes/Datas/Sites/alainpellaux/wp-content/themes/newme/contact.php:41
 msgid "Your email"
-msgstr "Votre nom"
+msgstr "Votre email"
 
 #: /Volumes/Datas/Sites/alainpellaux/wp-content/themes/newme/contact.php:42
 #: /Volumes/Datas/Sites/alainpellaux/wp-content/themes/newme/functions/theme-contact.php:51

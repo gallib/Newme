@@ -48,23 +48,18 @@ hr {
 }
 
 /* line 30, ../scss/_global.scss */
-.content-wrapper {
-  margin-top: 10px;
-}
-
-/* line 34, ../scss/_global.scss */
 .alignleft {
   display: inline;
   float: left;
 }
 
-/* line 39, ../scss/_global.scss */
+/* line 35, ../scss/_global.scss */
 .alignright {
   display: inline;
   float: right;
 }
 
-/* line 44, ../scss/_global.scss */
+/* line 40, ../scss/_global.scss */
 .aligncenter {
   display: block;
   margin-right: auto;
@@ -72,19 +67,19 @@ hr {
 }
 
 @media only screen and (min-width: 40.063em) {
-  /* line 51, ../scss/_global.scss */
+  /* line 47, ../scss/_global.scss */
   .content-wrapper {
     display: table;
     height: 100%;
   }
-  /* line 55, ../scss/_global.scss */
+  /* line 51, ../scss/_global.scss */
   .content-wrapper > .columns,
   .content-wrapper .content-body {
     display: table-cell;
     vertical-align: middle;
     height: 100%;
   }
-  /* line 62, ../scss/_global.scss */
+  /* line 58, ../scss/_global.scss */
   .content-wrapper > .columns, .content-wrapper > [class*="column"] + [class*="column"]:last-child {
     float: none;
   }
@@ -203,18 +198,42 @@ hr {
 /* =========================================================
    About me
    ======================================================  */
-/* line 1, ../scss/_about-me.scss */
+/* line 2, ../scss/_about-me.scss */
 .about-me-picture img {
   -moz-border-radius: 400px;
   -webkit-border-radius: 400px;
   border-radius: 400px;
-  /*display:block;*/
+  width: 100%;
+}
+
+/* line 8, ../scss/_about-me.scss */
+.about-me-content {
+  text-align: justify;
 }
 
 @media only screen and (max-width: 40em) {
-  /* line 7, ../scss/_about-me.scss */
+  /* line 14, ../scss/_about-me.scss */
   .about-me-picture {
     margin-bottom: 1rem;
+  }
+}
+@media only screen and (min-width: 40.063em) {
+  /* line 20, ../scss/_about-me.scss */
+  .about-me {
+    display: flex;
+    align-items: stretch;
+  }
+
+  /* line 25, ../scss/_about-me.scss */
+  .about-me-picture,
+  .about-me-content {
+    display: flex;
+    align-items: center;
+  }
+
+  /* line 32, ../scss/_about-me.scss */
+  .about-me-content p:last-child {
+    margin-bottom: 0;
   }
 }
 /* =========================================================

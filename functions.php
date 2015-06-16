@@ -58,6 +58,26 @@ function newme_get_image_directory_uri()
 }
 endif;
 
+if (!function_exists('newme_remove_wp_ver_scripts')) :
+/**
+ * Remove ?ver= from styles and scripts
+ *
+ * @since  Newme 1.0.2
+ *
+ * @param  string $src style/script file
+ * @return string
+ */
+function newme_remove_wp_ver_scripts($src)
+{
+    if (strpos($src, '?ver=')) {
+        $src = remove_query_arg('ver', $src);
+    }
+    return $src;
+}
+endif;
+add_filter('style_loader_src', 'newme_remove_wp_ver_scripts');
+add_filter('script_loader_src', 'newme_remove_wp_ver_scripts');
+
 if (!function_exists('newme_enqueue_scripts')) :
 /**
  * Enqueue styles and scripts
@@ -110,14 +130,6 @@ function newme_enqueue_scripts()
     );
 
     wp_register_script(
-        'newme-foundation-equalizer',
-        get_template_directory_uri() . '/bower_components/foundation/js/foundation/foundation.equalizer.js',
-        array('newme-foundation-js'),
-        false,
-        true
-    );
-
-    wp_register_script(
         'newme-app',
         get_template_directory_uri() . '/js/app.js',
         array('newme-foundation-js'),
@@ -128,7 +140,6 @@ function newme_enqueue_scripts()
     wp_enqueue_script('jquery');
     wp_enqueue_script('newme-modernizr');
     wp_enqueue_script('newme-foundation-topbar');
-    wp_enqueue_script('newme-foundation-equalizer');
     wp_enqueue_script('newme-app');
 
     if (is_singular() && comments_open() && get_option('thread_comments')) {
