@@ -18,14 +18,14 @@
 
 @media only screen and (min-width: 40.063em) {
 	.about-me {
-		display: flex;
-		align-items: stretch;
+		@include display-flex;
+		@include align-items(stretch);
 	}
 
 	.about-me-picture,
 	.about-me-content {
-		display: flex;
-		align-items: center;
+		@include display-flex;
+		@include align-items(center);
 	}
 
 	.about-me-content {

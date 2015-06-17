@@ -220,14 +220,18 @@ hr {
 @media only screen and (min-width: 40.063em) {
   /* line 20, ../scss/_about-me.scss */
   .about-me {
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: stretch;
     align-items: stretch;
   }
 
   /* line 25, ../scss/_about-me.scss */
   .about-me-picture,
   .about-me-content {
+    display: -webkit-flex;
     display: flex;
+    -webkit-align-items: center;
     align-items: center;
   }
 
